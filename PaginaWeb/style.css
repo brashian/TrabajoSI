@@ -1,0 +1,11 @@
+.fondo{
+    background-image: url('../img/fondoLogIn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+}
+
+.container{
+    height: 200px;
+    width: 700px;
+  }
