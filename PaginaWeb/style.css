@@ -1,11 +1,20 @@
-.fondo{
-    background-image: url('../img/fondoLogIn.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: local;
+
+
+.login{
+    height: 450px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.123);
+  }
+
+.Nombre_h1{
+    color: aliceblue;
+}
+footer{
+    background-color: black;
 }
 
-.container{
-    height: 200px;
-    width: 700px;
-  }
+.fondo{
+    background-color: bisque;
+  
+}
+
