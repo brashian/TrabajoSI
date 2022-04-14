@@ -11,10 +11,10 @@ const cambio_idiomas = () => {
     let language = document.getElementById('option').value
 
     if (language=="eng") {
-        location.href='maineng.html'
+        location.href='../Ingles/maineng.html'
     }else{
         
-            location.href='main.html'
+            location.href='../esp/main.html'
         
     }
 
