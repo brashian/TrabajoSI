@@ -1,16 +1,27 @@
 
 
 .login{
-    height: 450px;
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.123);
+    height: 400px;
+    width: 350px;
+    background-color: rgba(231, 225, 225, 0.11);
   }
-
+.logoinicio{
+    border-radius: 50%;
+}
+.h1-signin{
+    color: white;
+}
+.fondologin{
+    background-image: url(../img/fondoLogIn.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: inherit;
+}
 .Nombre_h1{
     color: aliceblue;
 }
 footer{
-    background-color: black;
+    background-color: rgba(230, 221, 221, 0.596);
 }
 
 .fondo{
