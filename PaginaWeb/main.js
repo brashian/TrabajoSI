@@ -1,4 +1,5 @@
 
+
 const mostra_nombre = () => {
     //succiono datos del almacen local, con su
     let nombre = localStorage.getItem('nombre')
