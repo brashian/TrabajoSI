@@ -1,6 +1,7 @@
 
 /*Generales*/
 *{
+    border: 0;
     margin: 0;
     padding: 0;
 }
@@ -37,6 +38,7 @@ a:hover{
 }
 /*header*/
 .imagen-header{
+    box-shadow: 0px 6px 5px rgb(7, 7, 7);
     vertical-align: top;
     object-fit: cover;
     object-position: 0 bottom;
@@ -53,7 +55,7 @@ a:hover{
 	justify-content: space-between;
 }
 main{
-    min-height: 200vh;
+    
 }
 main .informacion p {
     margin-bottom: 30px;
@@ -86,3 +88,44 @@ aside .indice a{
     color: rgb(167, 194, 45);
 }
 
+
+/*Footer*/
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+   
+    height: px;
+  }
+  
+ 
+  
+  
+  
+  footer {
+    padding-top: 30px;
+    background-color: #292c2f;
+    color: #bbb;
+  }
+  
+  footer a {
+    color: #999;
+    text-decoration:none;
+  }
+  
+  footer a:hover, footer a:focus {
+    color: #aaa;
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+  }
+  
+  footer .form-control {
+      background-color: #1f2022;
+      box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+      border: none;
+      resize: none;
+      color: #d1d2d2;
+      padding: 0.7em 1em;
+  }
+  
