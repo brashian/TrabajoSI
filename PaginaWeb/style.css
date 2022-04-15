@@ -1,5 +1,19 @@
 
+/*Generales*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 
+
+/*Pagina inicio*/
 .login{
     height: 400px;
     width: 350px;
@@ -17,15 +31,61 @@
     background-size: cover;
     backface-visibility: inherit;
 }
+/*Nombre de usuario imprimido en header*/
 .Nombre_h1{
     color: aliceblue;
 }
-footer{
-    background-color: rgba(230, 221, 221, 0.596);
+/*header*/
+.imagen-header{
+    vertical-align: top;
+    object-fit: cover;
+    object-position: 0 bottom;
+}
+.navbar{
+    position: sticky;
+    top: 0;
 }
 
-.fondo{
-    background-color: bisque;
-  
+
+/*Main*/
+.contenedor{
+    max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+main{
+    min-height: 100vh;
+}
+main .contenido p {
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.829);
+}
+main .contenido .titulo{
+    padding-top: 35px;
+}
+/*indice*/
+aside{
+    min-width: 30%;
+    margin: 40px 20px 20px 0;
+    height: 100%;
+    background-color: rgb(17, 20, 58);
+    border-radius: 5px;
+    position: sticky;
+    top: 25px;
+}
+
+aside .titulo{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(167, 194, 45);
+}
+
+aside .indice a{
+    display: block;
+    margin-bottom: 20px;
+    color: rgb(167, 194, 45);
 }
 
