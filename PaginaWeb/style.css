@@ -128,4 +128,70 @@ aside .indice a{
       color: #d1d2d2;
       padding: 0.7em 1em;
   }
+
+  /*Intento olas*/
+ /*parametros de size de todo en general*/
+.cover{
+    width: 100%;
+    padding-bottom: 450px;
+    padding-top: 150px;
+    position: relative;
+}
+  .bg_color{
+      width: 300%;
+      height: 70%;
+      background-color: #660061 ;
+      background-repeat: no-repeat;
+      /*Position para que aparezca y el 0 para que este pegado al top de la pag*/
+      position: absolute;
+      top: 0;
+  }
+  .wave{
+      width: 300%;
+      height: 70%;
+      position: absolute;
+      top: 150px;
+      left: 0;
+      background-image: url('../img/intento.svg');
+      background-position: bottom;
+  } 
+  .w1{
+      /*Dura 7segundos sin hacer pausas, infinitamente*/
+    animation: w1 7s linear infinite;
+  }
+  /*animacion desplazamiento dura 7s y que no sea constante e infinito, le agrego opacidad pa que no que se note la animation desplazamiento*/
+  .w2{
+      /*el -.125 es para darle un delay, fijate cambiarlo*/
+    animation: w2 7s linear -.125s infinite, desplazamiento 7s ease -.125s infinite;
+    opacity: 0.5;
+  }
+  /*Uso keyframe para punto de start y end, cuando este en 0% se le asiga un ML de 0, y cuando este en 100, que se desplace -1600px*/
+  @keyframes w1 {
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: -1600px;
+    }
+}
+
+@keyframes w2 {
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: -1600px;
+    }
+}
+/*cuando este al 0 y al 100 se transforme y se desplace en eje Y, en 50 sea mayor*/
+@keyframes desplazamiento {
+    0%, 100%{
+        transform: translateY(-25px);
+    }
+
+    50%{
+        transform: translateY(10px);
+    }
+    
+}
   
