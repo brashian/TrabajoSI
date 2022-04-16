@@ -18,13 +18,14 @@ a:hover{
 .login{
     height: 400px;
     width: 350px;
-    background-color: rgba(231, 225, 225, 0.11);
+    background-color: rgb(255, 255, 255, 1.0);
+    border-radius:5.5%;
   }
 .logoinicio{
     border-radius: 50%;
 }
 .h1-signin{
-    color: white;
+    color: #001E3D;
 }
 .fondologin{
     background-image: url(../img/log-in\(just-background\).png);
@@ -32,6 +33,15 @@ a:hover{
     background-size: cover;
     backface-visibility: inherit;
 }
+
+.boton-login{
+    background-color:#0058b0;
+}
+.boton-login:hover{
+    background-color:#001E3D;
+   
+}
+
 /*Nombre de usuario imprimido en header*/
 .Nombre_h1{
     color: aliceblue;
