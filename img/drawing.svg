@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1600"
+   height="250"
+   viewBox="0 0 423.33333 66.145832"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="drawing.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.37014941"
+     inkscape:cx="520.06026"
+     inkscape:cy="-410.64499"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     width="160mm"
+     units="px" />
+  <defs
+     id="defs2">
+    <clipPath
+       id="clip0">
+      <rect
+         width="1600"
+         height="600"
+         fill="white"
+         id="svg_1" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       style="fill:none"
+       id="g91"
+       transform="matrix(-0.26458322,-2.3786197e-4,2.3786197e-4,-0.26458322,423.58215,65.506702)">
+      <rect
+         id="backgroundrect"
+         width="100%"
+         height="100%"
+         x="0"
+         y="0"
+         fill="none"
+         stroke="none" />
+      <g
+         class="currentLayer"
+         id="g76">
+        <title
+           id="title70">Layer 1</title>
+        <g
+           clip-path="url(#clip0)"
+           id="svg_2"
+           class=""
+           fill-opacity="1"
+           fill="#660061">
+          <path
+             fill-rule="evenodd"
+             clip-rule="evenodd"
+             d="m 1613.0921,67.961857 c -314.4988,0 -414.5114,126.149393 -820.12379,125.889283 -404.50003,0 -505.62503,-125.889283 -797.8762977,-125.889283 v -80.11108 H 1613.0921 c 0,0 0,49.939367 0,80.11108 z"
+             fill="#660061"
+             id="svg_3" />
+        </g>
+        <rect
+           fill="#660061"
+           stroke-dashoffset=""
+           fill-rule="nonzero"
+           id="svg_4"
+           x="1585"
+           y="3"
+           width="11"
+           height="1"
+           style="color:#660061" />
+        <rect
+           fill="#660061"
+           stroke-dashoffset=""
+           fill-rule="nonzero"
+           id="svg_6"
+           x="1588"
+           y="67"
+           width="36"
+           height="0"
+           style="color:#660061" />
+      </g>
+    </g>
+  </g>
+</svg>
