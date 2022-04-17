@@ -10,32 +10,51 @@
 </head>
 <body id="body_focus">
     <header>
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar p-0 m-0">
             <div class="container-fluid">
-            <!--Cambiar, era en pruebas-->
-                <img src="../../img/logo.png" alt="" width="80" height="80" class="d-inline-block align-text-top">
+              <!--Cambiar, era en pruebas-->
+                <div class="container">
+                  <div class="row">                                 
+                              <div class="col-md-12 text-center">
+                                  <h1 class="Nombre_h1 ">Welcome user</h1>
+                                  <h1 id="h_nombre" class="Nombre_h1"></h1>
+                              </div>                   
+                  </div>
+              </div>
+                <div class="m-4">
+                  <select class="form-select  text-center" id="option"  aria-label="Default select example">
+                     
+                      <option  value="esp">ESP</option>
+                      <option  value="eng" selected>ENG</option>
+                    </select>
+              </div>
+            </div>
+          </nav>
+          
+      </header>
+        
+            
+            <div class="cover">
+                    <div class="bg_color"></div>
+                    <div class="wave w1"></div>
+                    <div class="wave w2"></div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h1 class="Nombre_h1">Welcome user</h1>
-                                    <h1 id="h_nombre" class="Nombre_h1"></h1>
-                                </div>
-                            </div>
+                        <div class="col-md-6 caja mt-0 ">
+                            
+                                <img src="../../img/ImagenMain.jpg"  class="img-fluid imagenmain" alt="">
+                            
+                        </div>
+                        <div class="col-md-6 caja  mt-0   text-center">
+                            
+                                <h3 class="h3_main">Say no to bullying</h3>
+                                <p class="p_main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor maiores praesentium labore fugiat quis, quos officiis facilis sed delectus reprehenderit sapiente ab voluptate, totam explicabo sequi! Laboriosam quas officia omnis.</p>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="m-4">
-                    <select class="form-select  text-center" id="option"  aria-label="Default select example">
-                    
-                        <option  value="esp">ESP</option>
-                        <option  value="eng" selected>ENG</option>
-                    </select>
-                </div>
             </div>
-        </nav>
-    </header>
+            
         
     <main>
         <div class="contenedor">
@@ -112,8 +131,8 @@
         <footer>
             <div class="container ">
                 <div class="row">
-                    <div class="col-md-6  text-start">
-                        <h5>Hecho por:</h5>
+                    <div class="col-md-4  text-start">
+                        <h5>Made by:</h5>
                         <p>
                             Ahumada Hugo <br>
                             Sandoval Brian
@@ -121,17 +140,17 @@
                     </div>
                     
                     
-                    <div class="col-md-3  text-start">
-                        <h5> Trabajo Seg.Informatica</h5>
+                    <div class="col-md-4  text-start">
+                        <h5> Information</h5>
                         
                         <ul class="list-unstyled">
                             <li>Curso: 5~1</li>
-                            <li><a href="#">Documentacion</a></li>
-                            <li><a href="#">Escuela</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">School</a></li>
                             
                         </ul>
                     </div>
-                    <div class="col-md-3 m-1">
+                    <div class="col-md-4">
                         <img src="../../img/CET30.png" class="rounded float-start" alt="logo-cet-30">
                     </div>
                 </div>

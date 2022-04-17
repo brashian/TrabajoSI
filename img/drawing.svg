@@ -4,11 +4,11 @@
 <svg
    width="1600"
    height="250"
-   viewBox="0 0 423.33333 66.145832"
+   viewBox="0 0 423.33332 66.145835"
    version="1.1"
    id="svg5"
-   sodipodi:docname="drawing.svg"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="drawing.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -21,19 +21,18 @@
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
-     inkscape:document-units="px"
+     inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.37014941"
-     inkscape:cx="520.06026"
-     inkscape:cy="-410.64499"
+     units="px"
+     inkscape:zoom="0.52347032"
+     inkscape:cx="1072.6492"
+     inkscape:cy="762.22087"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     width="160mm"
-     units="px" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2">
     <clipPath
@@ -51,8 +50,8 @@
      id="layer1">
     <g
        style="fill:none"
-       id="g91"
-       transform="matrix(-0.26458322,-2.3786197e-4,2.3786197e-4,-0.26458322,423.58215,65.506702)">
+       id="g200"
+       transform="matrix(0.26489563,0,0,-0.26509977,0,66.289999)">
       <rect
          id="backgroundrect"
          width="100%"
@@ -63,9 +62,9 @@
          stroke="none" />
       <g
          class="currentLayer"
-         id="g76">
+         id="g185">
         <title
-           id="title70">Layer 1</title>
+           id="title179">Layer 1</title>
         <g
            clip-path="url(#clip0)"
            id="svg_2"
