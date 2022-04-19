@@ -1,0 +1,31 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.Nombre_h1{
+    color: #660061;
+    padding-bottom: 0.8vw;
+    font-family: 'Poppins', sans-serif;
+}
+.elegir-idioma{
+    padding-bottom:0.8vw
+}
+/*header*/
+.navbar{
+    width:auto;
+    height:5.8vw;
+    background-image: url("nav-bar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+}
