@@ -6,7 +6,7 @@
 
 document.getElementById("body_eng").onload = show_name();
 
-*/
+
 
 const mostra_nombre = () => {
     //succiono datos del almacen local, con su
@@ -32,4 +32,4 @@ const cambio_idiomas = () => {
 }
 const idiomas = document.getElementById('option')
 idiomas.addEventListener('change',cambio_idiomas)
-
+*/

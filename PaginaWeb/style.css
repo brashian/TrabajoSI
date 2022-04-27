@@ -16,9 +16,9 @@ a:hover{
 
 /*Pagina inicio*/
 .login{
-    height: 400px;
+    height: auto;
     width: 350px;
-    background-color: rgba(231, 225, 225, 0.11);
+    background-color: rgba(19, 18, 18, 0.411);
   }
 .logoinicio{
     border-radius: 50%;
@@ -27,9 +27,9 @@ a:hover{
     color: white;
 }
 .fondologin{
-    background-image: url(../img/fondoLogIn.webp);
+    background-image: url(../img/log-in\(just-background\).png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     backface-visibility: inherit;
 }
 /*Nombre de usuario imprimido en header*/
@@ -182,7 +182,7 @@ aside .indice a{
     }
     
 }
-/*footer wave*/
+/*footer*/
 .cover_footer{
     width: 100%;
     height: 70%;
@@ -263,4 +263,65 @@ aside .indice a{
 }
 .p_main{
     color: white;
+}
+
+/*Desinf for Grooming esp-eng*/
+.grooming{
+    background-color: #0000ffff ;;
+}
+.bg_grooming{
+    width: 100%;
+      height: 60%;
+      background-color: #660061 ;
+      position: absolute;
+      top: 0;
+}
+.cover_grooming{
+    width: 100%;
+    height: 70%;
+    padding-bottom: 160px;
+    padding-top: 170px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave_grooming{
+    width: 600%;
+    height: 55%;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    background-image: url('../img/intento.svg');
+    background-position: bottom;
+}
+/*wave blue*/
+.bg_blue{
+    width: 100%;
+      height: 45%;
+      background-color: #0000ffff ;
+      position: absolute;
+      top: 0;
+}
+.cover_blue{
+    width: 100%;
+    height: 70%;
+    padding-bottom: 160px;
+    padding-top: 190px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave_blue{
+    width: 600%;
+    height: 50%;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    background-image: url('../img/waveblue.svg');
+    background-position: bottom;
+}
+
+.imagen_grooming{
+    height: 500px;
+    width: 1000px;
 }
