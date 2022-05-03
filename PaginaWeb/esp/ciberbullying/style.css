@@ -29,3 +29,24 @@ a:hover{
     position: sticky;
     top: 0;
 }
+
+footer {
+    width:100%;
+    height:auto;
+    background-image: url("nav-bar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+  }
+  
+  footer a {
+    color: rgb(235, 223, 223);
+    text-decoration:none;
+  }
+  
+  footer a:hover, footer a:focus {
+    color: white;
+    text-decoration:none;
+    border-bottom:1px dotted white;
+  }
+  
